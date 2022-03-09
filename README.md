@@ -10,7 +10,6 @@
 >
 > Server should be listening at port **3000**
 
----
 
 ## API description
 
@@ -96,4 +95,3 @@
 > > **Result**: *200 Book updated*
 > > 
 > > **Error response**: *404 book not found*
----
