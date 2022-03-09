@@ -12,10 +12,6 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.get('/', (req, res) => {
-    res.send('<h1>Welcome!</h1>');
-});
-
 app.get('/health', (req, res) => {
     res.sendStatus(200);
 });
