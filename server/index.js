@@ -59,7 +59,7 @@ app.put('/book/:isbn', (req, res) => {
 
     let found = false;
     for (let i = 0; i < books.length; i++) {
-        let book = books[i]
+        let book = books[i];
         if (book.isbn === isbn) {
             books[i] = newBook;
             found = true;
